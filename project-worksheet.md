@@ -78,13 +78,13 @@ Functional Nav menu, Hamburger, and language filter.
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Hover | L | 3hr | -hr | -hr|
-| Banner letters wiggle | L | 3hr | -hr | -hr|
-| Interactive Banner | M | 3hr | -hr | -hr|
+| Hover | L | 3hr | -hr | -hr|
+| Preloader | L | 2hr | -hr | -hr|
+| Custom Cursor | M | 2hr | -hr | -hr|
 | Materialize | H | -hr | -hr | -hr|
 | Bootstrap | H | -hr | -hr | -hr|
 | Make own icon | L | 2hr | -hr | -hr|
-| Total | H | 11hrs| -hrs | -hrs |
+| Total | H | 9hrs| -hrs | -hrs |
 
 ## Additional Libraries
  jQuery
