@@ -8,7 +8,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description/ Wireframes/ Project Schedule | Complete
+|Day 1| Project Description/ Wireframes/ Project Schedule/ Timeline | Complete
 |Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 3| Animations & Fonts | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
@@ -22,11 +22,9 @@ A simple and elegant portfolio site with many animations that convey my projects
 
 ## Google Sheet
 
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
+- [My Google Sheet](https://docs.google.com/spreadsheets/d/1Szm0dSgEJcsH2a9N3e8GwkwLs5BzRLIrkB4g5BL-hJ8/edit?usp=sharing) 
 
 ## Wireframes
-
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
 - [Mobile](https://drive.google.com/file/d/1HLaB2Q0TVILGdjFEV7kiLfFnrRGi7eKU/view?usp=sharing)
 - [Desktop](https://drive.google.com/file/d/14LvmAELq5ENwbUhnztuCT9sJw0xVHRiz/view?usp=sharing)
