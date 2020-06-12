@@ -9,12 +9,17 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description/ Wireframes/ Project Schedule/ Timeline | Complete
-|Day 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 3| Animations & Fonts | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 2| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 3| Animations & Fonts | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
+## Three Sites I was inspired bu
+## |Link To Site|One thing I'd Like to Incorporate|Initial Research On that Item
+|https://lucas-perret.com/| Entire layout, fonts, and animations | google
+|https://www.ivantoma.com/| Mouse pointer | google
+|https://cathrine.co/| Nav Layout | 
 
 ## Project Description
 
@@ -22,22 +27,8 @@ A simple and elegant portfolio site with many animations that convey my projects
 
 ## Google Sheet
 
-- [My Google Sheet](https://docs.google.com/spreadsheets/d/1Szm0dSgEJcsH2a9N3e8GwkwLs5BzRLIrkB4g5BL-hJ8/edit?usp=sharing) 
+- [My Google Sheet](https://docs.google.com/spreadsheets/d/1Lr-7W36wo2GZnze7boYYSbOX7z52WM-rZNGY7xfMab0/edit#gid=0) 
 
-## Wireframes
-
-- [Mobile](https://drive.google.com/file/d/1HLaB2Q0TVILGdjFEV7kiLfFnrRGi7eKU/view?usp=sharing)
-- [Desktop](https://drive.google.com/file/d/14LvmAELq5ENwbUhnztuCT9sJw0xVHRiz/view?usp=sharing)
-
-Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
-
-
-## Time/Priority Matrix 
-
-[Link]()
 
 
 ### MVP/PostMVP - 5min
@@ -63,27 +54,27 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 Functional Nav menu, Hamburger, and language filter.
 
 #### MVP
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger | H | 3hr | hr | -hr|
-| Project Previews | H | 2hr | -hr | -hr|
-| Regular Nav | H | 3H | hr | -hr|
-| Adding Form | H | 3hr| hr | -hr |
-| CSS Grid and Flex| M | 3hr | hr | -hr|
-| Working with API | H | 3hrs| hr | -hr |
-| Responsive | H | 3hr | hr | -hr|
+| Hamburger | H | 3hr | 6hr | -hr|
+| Project Previews | H | 2hr | 1hr | -hr|
+| Regular Nav | H | 3H | 3hr | -hr|
+| Adding Form | H | 3hr| 4hr | -hr |
+| CSS Grid and Flex| M | 3hr | 2hr | -hr|
+| Working with API | H | 3hrs| 5hr | -hr |
+| Responsive | H | 3hr | 2hr | -hr|
 | Social Media Icons | L | 2hr | hr | -hr|
 | Total | H | 26hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hover | L | 3hr | -hr | -hr|
-| Preloader | L | 2hr | -hr | -hr|
-| Custom Cursor | M | 2hr | -hr | -hr|
-| Materialize | H | -hr | -hr | -hr|
-| Bootstrap | H | -hr | -hr | -hr|
-| Make own icon | L | 2hr | -hr | -hr|
+| Hover | L | 3hr | 0hr | -hr|
+| Preloader | L | 2hr | 0hr | -hr|
+| Custom Cursor | M | 2hr | 1hr | -hr|
+| Materialize | H | -hr | 0hr | -hr|
+| Bootstrap | H | -hr | 2hr | -hr|
+| Make own icon | L | 2hr | 1hr | -hr|
 | Total | H | 9hrs| -hrs | -hrs |
 
 ## Additional Libraries
