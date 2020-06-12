@@ -106,6 +106,8 @@ function app(projectsArr) {
 ## Issues and Resolutions
 
 
-#### SAMPLE.....
 **ERROR**: jQuery errors only when hosting.                            
 **RESOLUTION**: Changing the jQuery link around
+
+## Youtube Link
+https://youtu.be/tK0McRGW8y0
