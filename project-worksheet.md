@@ -64,29 +64,42 @@ Functional Nav menu, Hamburger, and language filter.
 | CSS Grid and Flex| M | 3hr | 2hr | -hr|
 | Working with API | H | 3hrs| 5hr | -hr |
 | Responsive | H | 3hr | 2hr | -hr|
-| Social Media Icons | L | 2hr | hr | -hr|
-| Total | H | 26hrs| -hrs | -hrs |
+| Total | H | 26hrs| 19hrs |  |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Hover | L | 3hr | 0hr | -hr|
-| Preloader | L | 2hr | 0hr | -hr|
 | Custom Cursor | M | 2hr | 1hr | -hr|
-| Materialize | H | -hr | 0hr | -hr|
-| Bootstrap | H | -hr | 2hr | -hr|
 | Make own icon | L | 2hr | 1hr | -hr|
-| Total | H | 9hrs| -hrs | -hrs |
+| Total | H | 7hrs| 2hrs | -hrs |
 
 ## Additional Libraries
- jQuery
+ jQuery, Kursor.JS(unpkg.com), Google fonts
 
 ## Code Snippet
 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function app(projectsArr) {
+    console.log('inside app - projectsArr', projectsArr)
+    projectsArr.forEach( project => { 
+        let projectsDiv = $('.projectsDiv');
+        let myProject = $('<div>').attr('class', 'myProject');
+        let projectName = $('<h6>').text(project.title).attr('class', 'projectName');
+        let projectPic = $('<img>').attr('src',  project.image).attr('class','images');
+        let projectDescription = $('<p>').attr('class', project.description);
+        let projectLink = $('<a>').attr('href', project.url).attr('class', 'button');
+        let overlay = $('<div>').attr('class','overlay')
+        projectLink.append(projectPic);
+        myProject.append(myProject, projectName,  projectDescription, projectLink);
+        projectsDiv.append(myProject);
+        myProject.append(overlay)
+
+        
+    })
+}
+
 }
 ```
 
@@ -94,5 +107,5 @@ function reverse(string) {
 
 
 #### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR**: jQuery errors only when hosting.                            
+**RESOLUTION**: Changing the jQuery link around
