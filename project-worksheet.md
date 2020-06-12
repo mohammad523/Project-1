@@ -16,7 +16,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 6| Present | Incomplete
 
 ## Three Sites I was inspired by
-|Link To Site|One thing I'd Like to Incorporate|Initial Research On that Item
+| Link To Site | One thing I'd Like to Incorporate | Initial Research On that Item
+|---|---| ---|
 |https://lucas-perret.com/| Entire layout, fonts, and animations | google
 |https://www.ivantoma.com/| Mouse pointer | google
 |https://cathrine.co/| Nav Layout | 
