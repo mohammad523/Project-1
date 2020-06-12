@@ -1,0 +1,176 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+a {
+text-decoration: none;
+}
+
+.logo, .navList, .navBar {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+
+}
+
+.navList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 50%; */
+}
+
+.navList > a{
+    padding: 0 30px;
+}
+
+.burger{
+    padding: 20px;
+    display: none;
+}
+
+.burger > div{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    /* border-radius: 50px; */
+}
+
+ul {
+    list-style: none;
+}
+
+h3{
+    padding: 5px 20px;
+    font-size: 20px;
+    color: grey;
+}
+
+.main {
+    display: grid;
+    border: solid 1px black;
+
+}
+
+.top{
+    margin: 70px 0px 0px 20px;
+}
+
+.bottom{
+    margin: 0 0 30px 20px;
+}
+
+
+
+/* h3{
+    padding: 5px 20px;
+    font-size: 20px;
+    color: grey;
+}
+
+
+body > div {
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: repeat(10 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.middleDiv{
+    align-content: center;
+}
+
+ */
+
+
+@media screen and (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .navList {
+        position: absolute;
+        height: 87vh;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        color: white;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .navList a {
+       text-decoration: none;
+       color: white;
+    }
+    .navList li {
+        opacity: 0;
+    }
+    .burger{
+        padding: 20px;
+        display: block;
+        border: solid 1px black;
+    }
+    
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+/* css for about */
+
+
+
+
+
+
+.contact-form{
+    margin: 0 auto;
+    justify-content: center;
+    /* border: solid 1px black; */
+    width: 85%;
+    max-width: 600px;
+    background: lightgray;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+.contact-form > div {
+    padding: 20px;
+    
+}
+
+.btn {
+    display: block;
+    background: black;
+    color: white;
+    border-radius: 100px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.txtb input {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.contact-form{
+    display: grid;
+    /* top: 50%; */
+}

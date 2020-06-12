@@ -1,0 +1,190 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    }
+    
+.logo, .navList, .navBar {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+
+}
+
+.navList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 50%; */
+}
+
+.navList > a{
+    padding: 0 30px;
+}
+
+.burger{
+    padding: 20px;
+    display: none;
+}
+
+.burger > div{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+    /* border-radius: 50px; */
+}
+
+ul {
+    list-style: none;
+}
+
+h3{
+    padding: 5px 20px;
+    font-size: 20px;
+    color: grey;
+}
+
+.main {
+    display: grid;
+    border: solid 1px black;
+    height: 700px;
+    grid-template-rows: 33%;
+
+}
+
+.top{
+    padding: 110px 0px 0px 20px;
+    margin: 0;
+    height: 33%;
+
+}
+
+.bottom{
+    margin: 0 0 30px 20px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 40;
+}
+
+
+.projectsDiv {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100vh;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projectsDiv > .myProject {
+    /* border: 1px solid black; */
+    width: 500px;
+    max-height: 800px;
+    background:rgba(255,255,255, 0.9);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color:rgba(255,255,255, .5);
+
+}
+
+.images{
+    width: 100%;
+    height: auto;
+    background-color:rgba(255,255,255, .5);
+    z-index: 1;
+    padding-bottom: 3300px;
+
+}
+.overlay{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255,255,255);
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+
+
+}
+
+
+
+@media screen and (max-width: 768px){
+/* the sliding nav will not show */
+    body{
+        overflow-x: hidden;
+    }
+    .navList {
+        position: absolute;
+        height: 87vh;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        background-color: lightgray;
+        color: white;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .navList a {
+       text-decoration: none;
+       color: white;
+    }
+    .navList li {
+        opacity: 0;
+    }
+    .burger{
+        padding: 20px;
+        display: block;
+        border: solid 1px black;
+    }
+
+    h1 { 
+        font-size: 120px;
+    }
+    
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+
+h6 {
+    font-size: 20px;
+    font-weight: 400;
+    color: gray
+}
+h1 {
+    font-size: 128px;
+    color: black;
+    font-weight: 80;
+}
+
+.skills > li {
+    border-left: solid .5px gray;
+    padding: 0 5px;
+}
